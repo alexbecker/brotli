@@ -1,3 +1,4 @@
+.PHONY: br
 br: $(addsuffix .br,$(COMPRESSIBLE))
 
 %.br: %
